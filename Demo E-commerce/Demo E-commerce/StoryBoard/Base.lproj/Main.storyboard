@@ -107,7 +107,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kEW-KP-iP5">
                                 <rect key="frame" x="0.0" y="47" width="414" height="689"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vg0-Q2-mOc">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="20" id="vg0-Q2-mOc">
                                     <size key="itemSize" width="180" height="300"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -146,6 +146,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="1w6-XI-MA5" firstAttribute="top" secondItem="1KW-2D-hye" secondAttribute="top" constant="5" id="7XX-Mr-ClQ"/>
                                                 <constraint firstAttribute="bottom" secondItem="6tU-F9-z52" secondAttribute="bottom" id="8cP-yW-MAr"/>
@@ -159,6 +160,7 @@
                                                 <constraint firstItem="6tU-F9-z52" firstAttribute="top" secondItem="ZYa-eM-xVi" secondAttribute="bottom" id="yri-gz-oHQ"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="180" height="350"/>
                                         <connections>
                                             <outlet property="img" destination="1w6-XI-MA5" id="lBG-7t-LGc"/>

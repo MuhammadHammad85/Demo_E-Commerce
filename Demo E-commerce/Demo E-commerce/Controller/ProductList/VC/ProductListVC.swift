@@ -36,6 +36,7 @@ extension ProductListVC : UICollectionViewDelegate , UICollectionViewDataSource 
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductListCollectionViewCell", for: indexPath)as? ProductListCollectionViewCell else{ return UICollectionViewCell() }
         let product = DataServices.instances.productOfCategory(categoryTitle: category?.title ?? "")[indexPath.row]
         cell.configureCell(prod: product)
+        cell.layer.cornerRadius = 12
         return cell
     }
 }
